@@ -147,7 +147,7 @@ const sendEmail = (e) =>{
             contactMessage.textContent = ''
         }, 3000)
     } else{
-        emailjs.sendForm(service_8ii265v, template_2mor40j, #contact-form, 8HhcQJqMsVDwt2yc-)
+        emailjs.sendForm(service_8ii265v, template_2mor40j, #contact-form, HhcQJqMsVDwt2yc-)
             .then(() =>{
                 contactMessage.classList.add('color-green')
                 contactMessage.textContent = 'You registered successfully'
